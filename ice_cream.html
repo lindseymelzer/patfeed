@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <!-- metadata -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- page title -->
+  <title>We can guess what flavor of ice cream you are</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/odin-0.10.4.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header>
+    <div class="container-xl">
+      <nav class="navbar navbar-slideout-sm">
+        <a class="navbar-brand" href="#">PatFeed</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+
+        <div class="navbar-menu">
+          <button class="menu-dismiss" aria-label="Dismiss navigation">&times;</button>
+          <ul>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Quizzes</a></li>
+            <li><a href="#">Tasty</a></li>
+            <li><a href="#">More</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container-xl">
+    <main>
+
+      <div class="row">
+        <div class="col-lg-9">
+
+          <!-- Quiz begins here -->
+          <div class="meta">
+            <h1 class="quiz-title">We can guess your personality based on ice cream</h1>
+            <span class="tagline">You think your chocolatey, don't you?</span>
+            <span class="date">Posted on April 25, 2017 at 3:33 a.m.</span>
+          </div>
+
+          <div class="byline">
+            <img class="circle left" src="img/me.jpg">
+            <span class="author-name">Lindsey M.</span>
+            <span class="author-title">PatFeed Contributor</span>
+          </div>
+
+          <div class="clear"></div>
+
+          <form class="quiz">
+            <!-- Begin question #1-->
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="question">How do you like to eat your ice cream?</h2>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/cake_cone.jpg" alt="cake">
+                    <input class="answer" type="radio" name="container" value="nice"> Cake cone
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/glass_bowl.jpg" alt="glass">
+                    <input class="answer" type="radio" name="container" value="brave"> Glass bowl
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/waffle_cone.jpg" alt="waffle_cone">
+                    <input class="answer" type="radio" name="container" value="playful"> Waffle cone
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/sugar_cone.jpg" alt="sugar">
+                    <input class="answer" type="radio" name="container" value="adorable"> Sugar cone
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/chocolate_dipped_cone.jpg" alt="chocolate_dipped">
+                    <input class="answer" type="radio" name="container" value="lively"> Chocolate dipped cone
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/waffle_bowl.jpg" alt="waffle_bowl">
+                    <input class="answer" type="radio" name="container" value="calm"> Waffle bowl
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- End question #1-->
+
+            <!-- Begin question #2-->
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="question">What is your favorite ice cream topping?</h2>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/sprinkles.jpg" alt="sprinkles">
+                    <input class="answer" type="radio" name="topping" value="lively"> Sprinkles
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/no_toppings.jpg" alt="no_toppings">
+                    <input class="answer" type="radio" name="topping" value="nice"> No toppings
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/whipped_cream.jpg" alt="whipped cream">
+                    <input class="answer" type="radio" name="topping" value="calm"> Whipped cream
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/nuts.jpg" alt="nuts">
+                    <input class="answer" type="radio" name="topping" value="brave"> Nuts
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/gummy_bears.jpg" alt="gummy_bears">
+                    <input class="answer" type="radio" name="topping" value="adorable"> Gummy bears
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/oreos.jpg" alt="oreos">
+                    <input class="answer" type="radio" name="topping" value="playful"> Oreos
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- End question #2-->
+
+            <!-- Begin question #3-->
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="question">If you like more than one topping, pick another.</h2>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/chocolate_chips.jpg" alt="chocolate_chips">
+                    <input class="answer" type="radio" name="topping" value="calm"> Chocolate chips
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/no_toppings.jpg" alt="no_toppings">
+                    <input class="answer" type="radio" name="topping" value="nice"> Still no toppings
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/hot_fudge.jpg" alt="hot_fudge">
+                    <input class="answer" type="radio" name="topping" value="adorable"> Hot fudge
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/fruit.jpg" alt="fruit">
+                    <input class="answer" type="radio" name="topping" value="playful"> Fruit
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/sour_gummy_worms.jpg" alt="sour_gummy_worms">
+                    <input class="answer" type="radio" name="topping" value="brave"> Sour Gummy worms
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/icecream/caramel_sauce.jpg" alt="caramel_sauce">
+                    <input class="answer" type="radio" name="topping" value="lively"> Caramel sauce
+                  </label>
+                </div>
+              </div>
+            </div>
+
+          </form>
+          <!-- End of Question #3 -->
+
+          <!-- Begin question #4-->
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="question">Pick your favorite ice cream flavor.</h2>
+            </div>
+
+            <div class="col-sm-4 col-xs-6">
+              <div class="choice">
+                <label>
+                  <img src="img/icecream/chocolate_icecream.jpg" alt="chocolate_icecream">
+                  <input class="answer" type="radio" name="flavor" value="brave"> Chocolate
+                </label>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-xs-6">
+              <div class="choice">
+                <label>
+                  <img src="img/icecream/strawberry_icecream.jpg" alt="strawberry_icecream">
+                  <input class="answer" type="radio" name="flavor" value="calm"> Strawberry
+                </label>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-xs-6">
+              <div class="choice">
+                <label>
+                  <img src="img/icecream/mint_chocolate_chip_icecream.jpg" alt="mint_chocolate_chip_icecream">
+                  <input class="answer" type="radio" name="flavor" value="lively"> Mint Chocolate Chip
+                </label>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-xs-6">
+              <div class="choice">
+                <label>
+                  <img src="img/icecream/vanilla_icecream.jpg" alt="vanilla_icecream">
+                  <input class="answer" type="radio" name="flavor" value="nice"> Vanilla
+                </label>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-xs-6">
+              <div class="choice">
+                <label>
+                  <img src="img/icecream/cookies_and_cream_icecream.jpg" alt="cookies_and_cream_icecream">
+                  <input class="answer" type="radio" name="flavor" value="plauyful"> Cookies n' Cream
+                </label>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-xs-6">
+              <div class="choice">
+                <label>
+                  <img src= "img/icecream/cookie_dough_icecream.jpg" alt="cookie_dough_icecream">
+                  <input class="answer" type="radio" name="flavor" value="adorable"> Cookie Dough
+                </label>
+              </div>
+            </div>
+          </div>
+
+        </form>
+        <!-- End of Question #4-->
+
+        <!-- Begin question #5-->
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="question">Finally, pick the color spoon you would perfer to eat your ice cream with.</h2>
+          </div>
+
+          <div class="col-sm-4 col-xs-6">
+            <div class="choice">
+              <label>
+                <img src="img/icecream/red_spoon.jpg" alt="red_spoon">
+                <input class="answer" type="radio" name="spoon" value="brave"> Red
+              </label>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-xs-6">
+            <div class="choice">
+              <label>
+                <img src="img/icecream/pink_spoon.jpg" alt="pink_spoon">
+                <input class="answer" type="radio" name="spoon" value="lively"> Pink
+              </label>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-xs-6">
+            <div class="choice">
+              <label>
+                <img src="img/icecream/green_spoon.jpg" alt="green_spoon">
+                <input class="answer" type="radio" name="spoon" value="playful"> Green
+              </label>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-xs-6">
+            <div class="choice">
+              <label>
+                <img src="img/icecream/blue_spoon.jpg" alt="blue_spoon">
+                <input class="answer" type="radio" name="spoon" value="calm"> Blue
+              </label>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-xs-6">
+            <div class="choice">
+              <label>
+                <img src="img/icecream/orange_spoon.jpg" alt="orange_spoon">
+                <input class="answer" type="radio" name="spoon" value="nice"> Orange
+              </label>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-xs-6">
+            <div class="choice">
+              <label>
+                <img src="img/icecream/purple_spoon.jpg" alt="purple_spoon">
+                <input class="answer" type="radio" name="spoon" value="adorable"> Purple
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <input class="button-primary" type="button" onclick="checkIt()" value="Get your results">
+      </form>
+
+      <div id="result"></div>
+      <!-- End of Question #5 -->
+          <!-- End of Quiz -->
+
+        </div>
+
+        <!-- Begin sidebar -->
+        <div class="col-lg-3">
+          <div class="news hide-md-down">
+            <h3>PatFeed News</h3>
+
+            <p><a href="#">The J.L. Mann Lady Patriots have just won the 5A division for lacrosse. They played an intense game against Wando at state and won with a final score of 9-8.</a></p>
+
+            <p><a href="#">The J.L. Mann girls soccer team just beat Mauldin with a score of 3-1 putting them in the fourth round of playoffs.</a></p>
+
+            <p><a href="#">The J.L. Mann softball team has a playoff game on May 8th against Byrnes, it will be held @Mann @6:00pm.</a></p>
+          </div>
+
+          <h3>Now Trending</h3>
+
+          <div class="row">
+            <div class="quiz-link">
+              <img src="https://dummyimage.com/400x250/aaa/fff">
+              <h4>Quiz title goes here</h4>
+            </div>
+
+            <div class="quiz-link">
+              <img src="https://dummyimage.com/400x250/aaa/fff">
+              <h4>Quiz title goes here</h4>
+            </div>
+
+            <div class="quiz-link">
+              <img src="https://dummyimage.com/400x250/aaa/fff">
+              <h4>Quiz title goes here</h4>
+            </div>
+
+            <div class="quiz-link">
+              <img src="https://dummyimage.com/400x250/aaa/fff">
+              <h4>Quiz title goes here</h4>
+            </div>
+          </div>
+        </div>
+        <!-- End sidebar -->
+
+      </div>
+    </main>
+
+    <footer>
+      <h3>More Buzz</h3>
+
+      <div class="row">
+        <!-- Begin clickbait headlines -->
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/icecream/gun.jpg" alt="gun">
+          <h4>Girl brings loaded gun to J.L. Mann Highschool</h4>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/icecream/spirit_week.jpg" alt="spirit_week">
+          <h4>J.L. Mann wins spirit week money agianst rival Greenville Highschool</h4>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/icecream/severe_weather.jpg" alt="severe_weather">
+          <h4>Severe weather hits Greenville SC</h4>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/icecream/tcby.jpg" alt="tcby">
+          <h4>TCBY comes to J.L. Mann Highschool</h4>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/icecream/greek_festival.jpg" alt="greek_festival">
+          <h4>Greek Festival is coming May 18th-21st</h4>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/icecream/fencing_club.jpg" alt="fencing_club">
+          <h4>Sign up today to join the J.L. Mann fencing club</h4>
+        </div>
+      <!-- End headlines-->
+
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- include any javascript below this line -->
+  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  <script src="js/odin-0.7.1.js"></script>
+  <script src="js/ice_cream_checker.js"></script>
+
+</body>
+</html>
